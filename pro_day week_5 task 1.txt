@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	
+	string temp,humidity;
+	cout<<"Enter the body temprature....(warm/cold).....";
+	cin>>temp;
+	if(temp=="warm")
+	{
+		cout<<"Enter the humidity....(dry/humid)....";
+		cin>>humidity;
+		if(humidity=="dry")
+		{
+			cout<<"Play Tennis"<<endl;
+		}// nested if bracket
+		else if(humidity=="humid")
+		{
+			cout<<" Play swim  "<<endl;
+		}
+	} // first if bracket
+    
+    if(temp=="cold")
+	{
+		cout<<"Enter the humidity....(dry/humid)....";
+		cin>>humidity;
+		if(humidity=="dry")
+		{
+			cout<<"Play basket ball"<<endl;
+		}// nested if bracket
+		else if(humidity=="humid")
+		{
+			cout<<" Watch Tv "<<endl;
+		}
+	} // first if bracket
+
+
+}// main bracket
